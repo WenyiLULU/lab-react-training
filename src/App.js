@@ -2,6 +2,7 @@
 import './App.css';
 import IdCard from './Components/IdCard.jsx'
 import Greetings from './Components/Greetings';
+import Random from './Components/Random';
 
 const idInformations = [
   {   lastName: 'Doe',
@@ -29,6 +30,8 @@ function App() {
       })}
       <Greetings lang="de" name="Ludwig"/>
       <Greetings lang="fr" name="François"/>
+      <Random min={1} max={6}/>
+      <Random min={1} max={100}/>
     </div>
   );
 }
