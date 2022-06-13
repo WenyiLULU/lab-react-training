@@ -1,6 +1,7 @@
 
 import './App.css';
-import IdCard from './Components/IdCard.js'
+import IdCard from './Components/IdCard.jsx'
+import Greetings from './Components/Greetings';
 
 const idInformations = [
   {   lastName: 'Doe',
@@ -26,6 +27,8 @@ function App() {
       {idInformations.map((person)=>{
         return <IdCard person={person}/>
       })}
+      <Greetings lang="de" name="Ludwig"/>
+      <Greetings lang="fr" name="François"/>
     </div>
   );
 }

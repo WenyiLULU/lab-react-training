@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-.idCard{
+.borderCard{
   margin: 10px;
   padding: 5px;
   display: flex;

@@ -6,7 +6,7 @@ function dateToString(date){
 }
 function IdCard({person}){
     return(
-        <div className="idCard">
+        <div className="borderCard">
             <div><img src={person.picture} alt="profile" /></div>
             <div className="idInfo">
                 <p><strong>First name: </strong>{person.firstName}</p>
