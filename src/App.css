@@ -50,3 +50,25 @@
 .idInfo p{
   margin: 0;
 }
+.creditImage{
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.creditImage img{
+  width: 80px;
+}
+.cardText{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cardText p{
+  margin: 0;
+}
+.cardInRow{
+  display: flex;
+}
