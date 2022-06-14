@@ -29,7 +29,7 @@ function CreditCard({card}){
         height:"200px"
     }
     return (
-        <div style={divStyle}>
+        <div style={divStyle} className="creditCard">
             <div className="creditImage"><img src={cardTypeImg(card.type)} alt="Card Type" /></div>
             <h1>{hideNumber(card.number)}</h1>
             <div className="cardText">
