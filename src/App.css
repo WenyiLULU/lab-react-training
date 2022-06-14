@@ -76,3 +76,31 @@
 .cardInRow{
   display: flex;
 }
+.ratingStars{
+  margin: 10px;
+  text-align: start;
+  font-size: 25px;
+}
+.rating{
+  font-size: 25px;
+}
+.driverCard{
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(95, 95, 243);
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.roundImg img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.driverInfo {
+  margin-left: 15px;
+  text-align: start;
+}
