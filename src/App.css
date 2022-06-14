@@ -104,3 +104,8 @@
   margin-left: 15px;
   text-align: start;
 }
+.likeBtn{
+  padding: 10px 30px;
+  font-size: 25px;
+  color: white;
+}

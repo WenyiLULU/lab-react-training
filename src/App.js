@@ -7,6 +7,7 @@ import BoxColor from './Components/BoxColor';
 import CreditCard from './Components/CreditCard';
 import Rating from './Components/Rating';
 import DriverCard from './Components/DriverCard';
+import LikeButton from './Components/LikeButton';
 
 const {idInformations, creditCards} = require('./testData.js')
 
@@ -61,7 +62,11 @@ function App() {
           }}
         />
       </div>
+      <div>
+        <LikeButton />
+      </div>
     </div>
+
   );
 }
 
