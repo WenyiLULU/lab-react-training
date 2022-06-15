@@ -9,6 +9,7 @@ import Rating from './Components/Rating';
 import DriverCard from './Components/DriverCard';
 import LikeButton from './Components/LikeButton';
 import CilckablePicture from './Components/ClickablePicture';
+import Dice from './Components/Dice';
 
 const {idInformations, creditCards} = require('./testData.js')
 
@@ -68,6 +69,9 @@ function App() {
       </div>
       <div>
         <CilckablePicture />
+      </div>
+      <div>
+        <Dice />
       </div>
     </div>
 
