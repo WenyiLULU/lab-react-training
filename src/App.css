@@ -137,3 +137,16 @@
   width: 100px;
   text-align: center;
 }
+.faceBook{
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+}
+.faceBook img{
+  margin: 5px;
+  height: 150px
+}
+.faceBook p{
+  text-align: start;
+}

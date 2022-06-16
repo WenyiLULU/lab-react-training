@@ -1,5 +1,6 @@
 
 import './App.css';
+import profiles from './data/berlin.json'
 import IdCard from './Components/IdCard.jsx'
 import Greetings from './Components/Greetings';
 import Random from './Components/Random';
@@ -12,6 +13,8 @@ import CilckablePicture from './Components/ClickablePicture';
 import Dice from './Components/Dice';
 import Carousel from './Components/Carousel';
 import NumbersTable from './Components/NumbersTable ';
+import FaceBook from './Components/FaceBook';
+
 
 const {idInformations, creditCards} = require('./testData.js')
 
@@ -86,7 +89,10 @@ function App() {
         />
       </div>
       <div>
-        <NumbersTable limit={12} />
+        <NumbersTable limit={15} />
+      </div>
+      <div>
+        <FaceBook profiles={profiles} />
       </div>
     </div>
 
