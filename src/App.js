@@ -11,6 +11,7 @@ import LikeButton from './Components/LikeButton';
 import CilckablePicture from './Components/ClickablePicture';
 import Dice from './Components/Dice';
 import Carousel from './Components/Carousel';
+import NumbersTable from './Components/NumbersTable ';
 
 const {idInformations, creditCards} = require('./testData.js')
 
@@ -83,6 +84,9 @@ function App() {
             'https://randomuser.me/api/portraits/men/2.jpg'
           ]}
         />
+      </div>
+      <div>
+        <NumbersTable limit={12} />
       </div>
     </div>
 

@@ -125,3 +125,15 @@
   width: 200px;
   margin:10px;
 }
+.numberTable{
+  width:50%;
+  display: grid;
+  grid-template: auto /auto auto auto auto auto;
+  gap: 5px;
+}
+.numberTable > div{
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
