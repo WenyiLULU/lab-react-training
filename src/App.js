@@ -1,6 +1,6 @@
 
 import './App.css';
-import profiles from './data/berlin.json'
+import profilesJson from './data/berlin.json'
 import IdCard from './Components/IdCard.jsx'
 import Greetings from './Components/Greetings';
 import Random from './Components/Random';
@@ -14,11 +14,13 @@ import Dice from './Components/Dice';
 import Carousel from './Components/Carousel';
 import NumbersTable from './Components/NumbersTable ';
 import FaceBook from './Components/FaceBook';
+import { useState } from 'react';
 
 
 const {idInformations, creditCards} = require('./testData.js')
 
 function App() {
+  const [profiles, setProfiles] = useState(profilesJson)
   return (
     <div className="App">
       {idInformations.map((person)=>{

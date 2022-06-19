@@ -5,11 +5,11 @@ function NumbersTable({limit}){
     }
     return (
         <div className="numberTable">
-            {arrayToDisplay.map((number)=>{
+            {arrayToDisplay.map((number, i)=>{
                 return(
                     number % 2 === 0 ? 
-                    <div style={{backgroundColor:"red"}}>{number}</div>
-                    : <div style={{backgroundColor:"white"}}>{number}</div>
+                    <div style={{backgroundColor:"red"}} key={number +"_" + i}>{number}</div>
+                    : <div style={{backgroundColor:"white"}} key={number +"_" + i}>{number}</div>
                 )
             })}
         </div>
